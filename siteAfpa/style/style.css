@@ -1,0 +1,221 @@
+#logo{
+    width: 50%;
+    height: 50px;
+}
+#hautdepage{
+
+   background-color: honeydew;
+   border: 1px solid rgba(128, 128, 128, 0.65);
+   border-radius: 5px;
+  
+}
+
+#limenu{
+
+    cursor:pointer;
+
+}
+
+
+body{
+
+    padding-top: 5%;
+    background-color: #6aae0350;
+  
+}
+
+#kid{
+
+    background-color: rgb(240, 255, 240);
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.65);
+    border-radius: 5px;
+}
+#kid:hover{
+
+    box-shadow: 10px 10px 20px black;
+    
+
+}
+h1{
+    
+    font-family: 'Abril Fatface', cursive;
+    background-color: rgba(0, 128, 0, 0.322);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 30px;
+}
+
+h2{
+    color:#69ae03 ;
+}
+
+#pourquoi{
+
+    background-color: rgba(0, 128, 0, 0.322);
+    border-radius: 20px;
+}
+
+#pourquoi:hover{
+
+    background-color:#69ae03 ;
+}
+
+#footer{
+
+    background-color: white;
+
+}
+
+h3{
+    background-color: rgba(0, 128, 0, 0.322);
+    font-weight: bolder;
+    padding: 1%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 30px;
+    font-family: 'Viaoda Libre', cursive;
+}
+h3:hover{
+    
+    background-color:#69ae03 ;
+
+}
+h4{
+
+    font-size: 1em;
+    text-align: left;
+    font-style: italic;
+
+}
+
+h5{
+    
+    text-decoration: underline;
+
+}
+
+#bts:hover{
+
+    background-color: #6aae0362;
+    
+}
+
+#certif{
+
+    text-decoration: none;
+}
+
+#lien{
+
+    color: blue;
+    
+    
+}
+#lien:hover{
+
+    cursor: pointer;
+
+}
+.gras{
+
+    font-weight: bolder;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+span{
+    color: white;
+}
+
+#map{
+
+    width: 99%;
+    background-color: white;
+}
+
+p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+
+
+
+/*début media query*/
+
+@media (min-width: 768px) { 
+
+    #kid{
+        width: 50%;
+        margin: 0 1%;
+        -webkit-transition: all 0.1s linear;
+        transition: all 0.1s linear;
+        
+    }
+
+   
+    #parent1{
+        display: flex;
+    }
+    #parent2{
+        display: flex;
+    }
+   
+
+    .parent3{
+        display: flex;
+    }
+    .carouselp{
+        margin: 40% 0;
+    }
+    #carouselimg{
+        margin: 40% 0;
+    }
+    #kid:hover{
+        
+        width: 60%;
+        cursor: pointer;
+        transform: translateY(-20px);
+       
+    }
+    
+}
+
+@media (min-width:1024px) {
+    
+    
+    .formationconteneur{
+
+        display: flex;
+     
+    }
+    
+    img{
+        height: 480px;
+    }
+    .carouselp{
+        margin: 18% 0;
+    }
+    #carouselimg{
+        margin: 1% 0;
+    }
+    #kid{
+        flex-wrap: column;
+    }
+    section>div:last-child #kid:nth-child(1):hover{
+
+        position:inherit;    
+        width: 250%;
+        margin: 0 32%;
+        transform: translateX(-535px);
+    
+
+    }
+    
+}
+
+    /* go to top css */
+
